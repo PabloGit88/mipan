@@ -9,10 +9,8 @@
 </head>
 <body>
 	<div id="container">
-		<?php include("header.html"); ?>
+		<?php include("header.php"); ?>
 	</div>
-	<div class="footer">
-		<img src="images/footer.jpg" />
-	</div>
+	<?php include("footer.php"); ?>
 </body>
 </html>
