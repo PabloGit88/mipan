@@ -12,9 +12,36 @@ td.gsc-search-button {
 	border: none !important;
 }
 
-#container {
+#contentHome {
 	background-image: url("images/home.jpg");
-	height: 857px;
+	height: 857px;	
+}
+#contentMercado {
+	background-image: url("images/mercado.jpg");
+	height: 1023px;
+}
+#contentRecetas {
+	background-image: url("images/home.jpg");
+}
+#contentFraude {
+	background-image: url("images/fraude.jpg");
+	height: 1013px;
+}
+#contentContactos {
+	background-image: url("images/contactos.jpg");
+	height: 690px;
+}
+#contentContactos2 {
+	background-image: url("images/contactos2.jpg");
+	height: 810px;
+}
+#contentNutricion {
+	background-image: url("images/nutricion.jpg");
+	height: 824px;
+}
+#contentPautas{
+	background-image: url("images/pautas.jpg");
+	height: 866px;
 }
 
 #header{ 	
@@ -69,4 +96,23 @@ td.gsc-search-button {
 	height: 47px;
 	margin-left: -33px;
 	float: left;
+}
+
+.footer{
+	height: 325px;
+}
+
+#contentPautas .pautas{
+	/*float:left;*/
+}
+#contentPautas .pautasTop{
+	/*position:absolute;*/
+	margin-left: 21px;
+}
+#contentPautas .pautasTop .pauta{
+	width: 277px;
+	height: 307px;
+	margin-top: 60px;
+	float: left;
+	padding-right: 12px;
 }

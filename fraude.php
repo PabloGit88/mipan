@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="estilos.css" title="style" />
 </head>
 <body>
-	<div id="contentHome">
+	<div id="contentFraude">
 		<?php include("header.php"); ?>
 	</div>
 	<?php include("footer.php"); ?>

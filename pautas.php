@@ -8,8 +8,17 @@
 	<link rel="stylesheet" type="text/css" href="estilos.css" title="style" />
 </head>
 <body>
-	<div id="contentHome">
+	<div id="contentPautas">
 		<?php include("header.php"); ?>
+		<div class="pautas">
+			<div class="pautasTop">
+				<div class="pauta"><img src="images/pauta1.jpg"/></div>
+				<div class="pauta"><img src="images/pauta2.jpg"/></div>
+				<div class="pauta"><img src="images/pauta3.jpg"/></div>
+			</div>
+			<div class="pautasBottom">
+			</div>
+		</div>
 	</div>
 	<?php include("footer.php"); ?>
 </body>
