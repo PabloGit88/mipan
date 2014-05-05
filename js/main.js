@@ -1,8 +1,7 @@
 $(function() {
 	$('.jcarousel').jcarousel({
-		// Configuration goes here
+		wrap: 'both'
 	});
-$('.jcarousel').jcarousel('scroll', '+=2');
 	
 	$('.jcarousel-prev').click(function() {
 		$('.jcarousel').jcarousel('scroll', '-=1');
