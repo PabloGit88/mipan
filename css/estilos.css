@@ -13,34 +13,35 @@ td.gsc-search-button {
 }
 
 #contentHome {
-	background-image: url("images/home.jpg");
+	background-image: url("../images/home.jpg");
 	height: 857px;	
 }
 #contentMercado {
-	background-image: url("images/mercado.jpg");
+	background-image: url("../images/mercado.jpg");
 	height: 1023px;
 }
 #contentRecetas {
-	background-image: url("images/home.jpg");
+	background-color: #77c048;
+	height:822px;
 }
 #contentFraude {
-	background-image: url("images/fraude.jpg");
+	background-image: url("../images/fraude.jpg");
 	height: 1013px;
 }
 #contentContactos {
-	background-image: url("images/contactos.jpg");
+	background-image: url("../images/contactos.jpg");
 	height: 690px;
 }
 #contentContactos2 {
-	background-image: url("images/contactos2.jpg");
+	background-image: url("../images/contactos2.jpg");
 	height: 810px;
 }
 #contentNutricion {
-	background-image: url("images/nutricion.jpg");
+	background-image: url("../images/nutricion.jpg");
 	height: 824px;
 }
 #contentPautas{
-	background-image: url("images/pautas.jpg");
+	background-image: url("../images/pautas.jpg");
 	height: 866px;
 }
 
@@ -74,8 +75,6 @@ td.gsc-search-button {
 	border:solid 1px rgb(184,214,224);
 	border-radius:8px;
 	height:50px;
-	/*background-image: url(images/search.png); 
-	background-repeat: no-repeat;*/
 }
 #header .buscador input:focus{
 	box-shadow:0 0 15px #036;
@@ -102,17 +101,57 @@ td.gsc-search-button {
 	height: 325px;
 }
 
-#contentPautas .pautas{
-	/*float:left;*/
-}
 #contentPautas .pautasTop{
 	/*position:absolute;*/
 	margin-left: 21px;
+	margin-top: 60px;
 }
-#contentPautas .pautasTop .pauta{
+#contentPautas .pautasBottom{	
+	margin-left: 163px;
+	padding-top: 319px;
+}
+#contentPautas .pautas .pauta{
 	width: 277px;
 	height: 307px;
-	margin-top: 60px;
 	float: left;
 	padding-right: 12px;
 }
+
+/*#contentPautas .pautasBottom .pautaB{
+	width: 277px;
+	height: 307px;
+	float: left;
+	padding-right: 12px;
+}*/
+
+#contentPautas .pautas2Top{
+	margin-left: 156px;
+	margin-top: 47px;
+}
+#contentPautas .pautas2Bottom{	
+	margin-left: 156px;
+	padding-top: 335px;
+}
+#contentPautas .pautas2 .pauta2{
+	width: 290px;
+	height: 320px;
+	float: left;
+	padding-right: 12px;
+}
+/*
+#contentRecetas .group1-Wrapper a.group2-Prev, a.group2-Next{
+
+    width:20px; height:20px; 
+    background:transparent url(../images/navbuttons.gif); 
+    display:inline-block; 
+    *display:inline;zoom:1;/*IE hack
+    margin-left:4px; margin-right:4px;
+    cursor:pointer;
+}
+#contentRecetas .group1-Wrapper a.group2-Prev{
+
+    width:20px; height:20px; 
+    background: url(../images/arrow.png); 
+
+}
+*/

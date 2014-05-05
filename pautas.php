@@ -5,7 +5,7 @@
 	<meta name="description" content="Saludable con mi pan" />
 	<meta name="keywords" content="etiqueta1, etiqueta2, etiqueta3" />
 	<title>Saludable con mi Pan</title>
-	<link rel="stylesheet" type="text/css" href="estilos.css" title="style" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css" title="style" />
 </head>
 <body>
 	<div id="contentPautas">
@@ -17,6 +17,8 @@
 				<div class="pauta"><img src="images/pauta3.jpg"/></div>
 			</div>
 			<div class="pautasBottom">
+				<div class="pauta"><img src="images/pauta4.jpg"/></div>
+				<div class="pauta"><img src="images/pauta5.jpg"/></div>
 			</div>
 		</div>
 	</div>
