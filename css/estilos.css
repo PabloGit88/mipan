@@ -138,20 +138,13 @@ td.gsc-search-button {
 	float: left;
 	padding-right: 12px;
 }
-/*
-#contentRecetas .group1-Wrapper a.group2-Prev, a.group2-Next{
-
-    width:20px; height:20px; 
-    background:transparent url(../images/navbuttons.gif); 
-    display:inline-block; 
-    *display:inline;zoom:1;/*IE hack
-    margin-left:4px; margin-right:4px;
-    cursor:pointer;
+#contentRecetas .jcarousel-prev img {
+	position: absolute;
+	top: 434px;
+	left: 43px;
 }
-#contentRecetas .group1-Wrapper a.group2-Prev{
-
-    width:20px; height:20px; 
-    background: url(../images/arrow.png); 
-
+#contentRecetas .jcarousel-next img {
+	position: absolute;
+	top: 434px;
+	left: 794px;
 }
-*/
