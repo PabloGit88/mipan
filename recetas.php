@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="Saludable con mi pan" />
-	<meta name="keywords" content="etiqueta1, etiqueta2, etiqueta3" />
-	<title>Saludable con mi Pan</title>
+	<meta name="keywords" content="saludable, pan, receta" />
+	<title>Recetas - Saludable con mi Pan</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css" title="style" />
 	<link rel="stylesheet" type="text/css" href="css/jcarousel.css" title="style" />
 
@@ -14,8 +14,8 @@
 		<?php include("header.php"); ?>
 		<div class="jcarousel">
 			<ul>
-				<li><img src="images/receta1.jpg" /></li>
-				<li><img src="images/receta2.jpg" /></li>
+				<li><img src="images/receta1.jpg" alt="Batida de china y guineo" /></li>
+				<li><img src="images/receta2.jpg" alt="Quesadilla de vegetales" /></li>
 			</ul>
 			<a class="jcarousel-prev" href="#"><img src="images/arrow.png" /></a>
 			<a class="jcarousel-next" href="#"><img src="images/arrow2.png" /></a>

@@ -18,7 +18,7 @@
 </div>
 	</div>
 	<ul class="menu">
-		<li><a href="home.php"><img src="images/Mmipan.png"/></a></li>
+		<li><a href="index.php"><img src="images/Mmipan.png"/></a></li>
 		<li><a href="mercado.php"><img src="images/Mmercado.png"/></a></a></li>
 		<li><a href="recetas.php"><img src="images/Mrecetas.png"/></a></a></li>
 		<li><a href="fraude.php"><img src="images/Mfraude.png"/></a></a></li>
