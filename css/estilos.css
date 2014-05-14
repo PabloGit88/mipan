@@ -3,6 +3,20 @@ body{
 	margin: 0 auto;
 }
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
 td.gsc-search-button {
 	display: none !important;
 }
@@ -99,8 +113,41 @@ td.gsc-search-button {
 
 .footer{
 	height: 325px;
+	background-color: #de1569;
+}
+.footer .layer {
+	display:block;
+}
+.footer #footertop
+{
+	margin-top: 16px;
+}
+.footer #footertop .listfooter
+{
+	margin: 0px 0px 0px 100px;
 }
 
+.footer #footertop .listfooter li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+	width: 150px;
+	height: 90px;
+	margin-left: 40px;
+	float: left;
+}
+.footer #footermid {
+	height: 87px;
+	margin: 14px 23px 0px 23px;
+}
+.footer #footermid a {
+	float:left;
+	padding-top: 4px;
+}
+.footer #footermid img {
+	float:right;
+}
 #contentPautas .pautasTop{
 	/*position:absolute;*/
 	margin-left: 21px;
