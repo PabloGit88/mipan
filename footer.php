@@ -10,7 +10,6 @@
 	<?php } ?>
 	<div id="footertop">
 	<ul class="listfooter clearfix">
-		<li><a href=""><img src="images/mi_pan_es_de_aqui.jpg"/></a></li>
 		<li><a href="pautas.php"><img src="images/saludable_con_mi_pan.jpg"/></a></a></li>
 		<li><a href="pautas2.php"><img src="images/corazon_de_tomate.jpg"/></a></a></li>
 	</ul>
