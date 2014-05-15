@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
 	<script type="text/javascript" src="highslide/highslide.js"></script>
 </head>
-</head>
 <body>
 	<div id="contentPautas">
 		<?php include("header.php"); ?>
